@@ -1,0 +1,21 @@
+object Form1: TForm1
+  Left = 283
+  Height = 226
+  Top = 147
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 226
+  ClientWidth = 320
+  OnMouseMove = FormMouseMove
+  LCLVersion = '1.6.0.4'
+  object Shape1: TShape
+    Left = 0
+    Height = 65
+    Top = 0
+    Width = 65
+    Brush.Color = clYellow
+    OnMouseDown = Shape1MouseDown
+    OnMouseEnter = Shape1MouseEnter
+    Shape = stCircle
+  end
+end

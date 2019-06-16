@@ -1,0 +1,70 @@
+object Form1: TForm1
+  Left = 262
+  Height = 471
+  Top = 160
+  Width = 560
+  Caption = 'Form1'
+  ClientHeight = 471
+  ClientWidth = 560
+  LCLVersion = '1.6.0.4'
+  object ListBox1: TListBox
+    Left = 32
+    Height = 256
+    Top = 56
+    Width = 128
+    Items.Strings = (
+      '5'
+      '5'
+      '3'
+      '5'
+      '3'
+      '5'
+      '5'
+    )
+    ItemHeight = 15
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 192
+    Height = 65
+    Top = 64
+    Width = 192
+    Caption = 'LINEAR AVERAGE'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 32
+    Height = 23
+    Top = 336
+    Width = 128
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 192
+    Height = 56
+    Top = 232
+    Width = 120
+    Caption = 'DELETE'
+    OnClick = Button2Click
+    TabOrder = 3
+  end
+  object Button3: TButton
+    Left = 192
+    Height = 41
+    Top = 312
+    Width = 120
+    Caption = 'ADD'
+    OnClick = Button3Click
+    TabOrder = 4
+  end
+  object Button4: TButton
+    Left = 192
+    Height = 65
+    Top = 144
+    Width = 192
+    Caption = 'SQUARE AVERAGE'
+    OnClick = Button4Click
+    TabOrder = 5
+  end
+end

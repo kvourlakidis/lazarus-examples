@@ -1,0 +1,164 @@
+object Form1: TForm1
+  Left = 348
+  Height = 396
+  Top = 201
+  Width = 567
+  Caption = 'Form1'
+  ClientHeight = 396
+  ClientWidth = 567
+  LCLVersion = '1.6.0.4'
+  object SpinEdit1: TSpinEdit
+    Left = 40
+    Height = 23
+    Top = 48
+    Width = 50
+    MaxValue = 40
+    MinValue = 1
+    TabOrder = 0
+    Value = 5
+  end
+  object SpinEdit2: TSpinEdit
+    Left = 40
+    Height = 23
+    Top = 104
+    Width = 50
+    MinValue = 1
+    TabOrder = 1
+    Value = 3
+  end
+  object SpinEdit3: TSpinEdit
+    Left = 64
+    Height = 23
+    Top = 160
+    Width = 50
+    MaxValue = 200
+    MinValue = 1
+    TabOrder = 2
+    Value = 80
+  end
+  object SpinEdit4: TSpinEdit
+    Left = 64
+    Height = 23
+    Top = 207
+    Width = 50
+    MaxValue = 200
+    MinValue = 1
+    TabOrder = 3
+    Value = 65
+  end
+  object SpinEdit5: TSpinEdit
+    Left = 64
+    Height = 23
+    Top = 256
+    Width = 50
+    MaxValue = 4
+    MinValue = 1
+    TabOrder = 4
+    Value = 1
+  end
+  object Button1: TButton
+    Left = 32
+    Height = 25
+    Top = 296
+    Width = 75
+    Caption = 'GO'
+    OnClick = Button1Click
+    TabOrder = 5
+  end
+  object Button2: TButton
+    Left = 32
+    Height = 25
+    Top = 328
+    Width = 75
+    Caption = 'CLEAR'
+    OnClick = Button2Click
+    TabOrder = 6
+  end
+  object ScrollBox1: TScrollBox
+    Left = 128
+    Height = 330
+    Top = 40
+    Width = 400
+    HorzScrollBar.Page = 379
+    VertScrollBar.Page = 309
+    ClientHeight = 309
+    ClientWidth = 379
+    TabOrder = 7
+    object Image1: TImage
+      Left = 0
+      Height = 1000
+      Top = 0
+      Width = 1000
+    end
+  end
+  object Label1: TLabel
+    Left = 32
+    Height = 22
+    Top = 72
+    Width = 68
+    Caption = 'cell size'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 15
+    Height = 22
+    Top = 128
+    Width = 99
+    Caption = 'start square'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 8
+    Height = 22
+    Top = 160
+    Width = 43
+    Caption = 'width'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 8
+    Height = 22
+    Top = 208
+    Width = 51
+    Caption = 'height'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 8
+    Height = 22
+    Top = 256
+    Width = 43
+    Caption = 'coef.'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+end

@@ -1,0 +1,46 @@
+object Form1: TForm1
+  Left = 427
+  Height = 267
+  Top = 193
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 267
+  ClientWidth = 320
+  OnMouseMove = FormMouseMove
+  LCLVersion = '1.6.0.4'
+  object Shape1: TShape
+    Left = 24
+    Height = 65
+    Top = 16
+    Width = 65
+    OnMouseDown = Shape1MouseDown
+    OnMouseMove = Shape1MouseMove
+    OnMouseUp = Shape1MouseUp
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 15
+    Top = 216
+    Width = 38
+    Caption = 'Coords'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 15
+    Top = 240
+    Width = 34
+    Caption = 'Label2'
+    ParentColor = False
+  end
+  object Shape2: TShape
+    Left = 176
+    Height = 65
+    Top = 32
+    Width = 65
+    OnMouseDown = Shape1MouseDown
+    OnMouseMove = Shape1MouseMove
+    OnMouseUp = Shape1MouseUp
+    Shape = stCircle
+  end
+end

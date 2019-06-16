@@ -1,0 +1,325 @@
+object Form1: TForm1
+  Left = 132
+  Height = 520
+  Top = 153
+  Width = 587
+  Caption = 'Form1'
+  ClientHeight = 520
+  ClientWidth = 587
+  LCLVersion = '1.6.0.4'
+  object Edit1: TEdit
+    Left = 24
+    Height = 30
+    Top = 72
+    Width = 48
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 0
+    Text = 'E1'
+  end
+  object Edit2: TEdit
+    Left = 88
+    Height = 30
+    Top = 72
+    Width = 48
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 1
+    Text = 'E2'
+  end
+  object Edit3: TEdit
+    Left = 152
+    Height = 30
+    Top = 72
+    Width = 48
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 2
+    Text = 'E3'
+  end
+  object Edit4: TEdit
+    Left = 216
+    Height = 30
+    Top = 72
+    Width = 48
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 3
+    Text = 'E4'
+  end
+  object Edit5: TEdit
+    Left = 280
+    Height = 30
+    Top = 72
+    Width = 48
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 4
+    Text = 'E5'
+  end
+  object Edit6: TEdit
+    Left = 88
+    Height = 30
+    Top = 24
+    Width = 48
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 5
+    Text = 'E6'
+  end
+  object Edit7: TEdit
+    Left = 216
+    Height = 30
+    Top = 24
+    Width = 48
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 6
+    Text = 'E7'
+  end
+  object Edit8: TEdit
+    Left = 88
+    Height = 30
+    Top = 120
+    Width = 48
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 7
+    Text = 'E8'
+  end
+  object Edit9: TEdit
+    Left = 216
+    Height = 30
+    Top = 120
+    Width = 48
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 8
+    Text = 'E9'
+  end
+  object Edit10: TEdit
+    Left = 24
+    Height = 30
+    Top = 168
+    Width = 48
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 9
+    Text = 'E10'
+  end
+  object Edit11: TEdit
+    Left = 88
+    Height = 30
+    Top = 168
+    Width = 48
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 10
+    Text = 'E11'
+  end
+  object Edit12: TEdit
+    Left = 152
+    Height = 30
+    Top = 168
+    Width = 48
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 11
+    Text = 'E12'
+  end
+  object Edit13: TEdit
+    Left = 216
+    Height = 30
+    Top = 168
+    Width = 48
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 12
+    Text = 'E13'
+  end
+  object Edit14: TEdit
+    Left = 280
+    Height = 30
+    Top = 168
+    Width = 48
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 13
+    Text = 'E14'
+  end
+  object Edit15: TEdit
+    Left = 88
+    Height = 30
+    Top = 216
+    Width = 48
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 14
+    Text = 'E15'
+  end
+  object Edit16: TEdit
+    Left = 216
+    Height = 30
+    Top = 216
+    Width = 48
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 15
+    Text = 'E16'
+  end
+  object ListBox1: TListBox
+    Left = 384
+    Height = 224
+    Top = 24
+    Width = 168
+    Items.Strings = (
+      'power'
+      'metal'
+      'earth'
+      'blood'
+      'donor'
+      'greed'
+      'money'
+      'jeans'
+      'drink'
+      'spoon'
+      'glass'
+    )
+    ItemHeight = 15
+    ItemIndex = 0
+    MultiSelect = True
+    TabOrder = 16
+  end
+  object Edit17: TEdit
+    Left = 384
+    Height = 32
+    Top = 280
+    Width = 168
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 17
+    Text = 'Edit17'
+  end
+  object Button1: TButton
+    Left = 384
+    Height = 49
+    Top = 351
+    Width = 168
+    Caption = 'ADD'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -32
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 18
+  end
+  object Button2: TButton
+    Left = 384
+    Height = 48
+    Top = 432
+    Width = 168
+    Caption = 'DELETE'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -32
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 19
+  end
+  object Button3: TButton
+    Left = 72
+    Height = 80
+    Top = 280
+    Width = 235
+    Caption = 'SOLVE'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -32
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button3Click
+    ParentFont = False
+    TabOrder = 20
+  end
+  object Button4: TButton
+    Left = 72
+    Height = 64
+    Top = 408
+    Width = 107
+    Caption = 'Select'
+    OnClick = Button4Click
+    TabOrder = 21
+  end
+end

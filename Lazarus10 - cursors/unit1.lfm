@@ -1,0 +1,22 @@
+object Form1: TForm1
+  Left = 310
+  Height = 240
+  Top = 169
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  DragMode = dmAutomatic
+  OnDragDrop = FormDragDrop
+  OnDragOver = FormDragOver
+  LCLVersion = '1.6.0.4'
+  object Button1: TButton
+    Left = 56
+    Height = 72
+    Top = 48
+    Width = 72
+    Caption = 'Button1'
+    DragMode = dmAutomatic
+    TabOrder = 0
+  end
+end
